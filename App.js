@@ -1,23 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+
 import Tabs from "./navigation/Tabs";
 import {NavigationContainer,DefaultTheme,DarkTheme} from "@react-navigation/native";
-import NavigationDarkTheme from "@react-navigation/native/src/theming/DarkTheme";
-import PaperDarkTheme from "@react-navigation/native/src/theming/DarkTheme";
+import {createContext, useState} from "react";
+export const HistoryContext=createContext(null)
 export default function App() {
+    const [cardNumber,setCardNumber]=useState('')
   return (
+      <HistoryContext.Provider value={{
+            cardNumber,setCardNumber
+      }}>
       <NavigationContainer >
         <Tabs/>
       </NavigationContainer>
-
+      </HistoryContext.Provider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
