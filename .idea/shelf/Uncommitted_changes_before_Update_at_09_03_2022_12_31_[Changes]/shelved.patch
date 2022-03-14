@@ -1,0 +1,233 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"564bcc0b-f077-4954-ab9e-a4c4f973b1b6\" name=\"Changes\" comment=\"Created a new Expo app\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/App.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/App.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"25RZQeb8wmItBvRme5KTAnGdgiB\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\maliv\\WebstormProjects\\Sms\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"564bcc0b-f077-4954-ab9e-a4c4f973b1b6\" name=\"Changes\" comment=\"\" />\r\n      <created>1645491844911</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1645491844911</updated>\r\n      <workItem from=\"1645491846015\" duration=\"148000\" />\r\n      <workItem from=\"1645492025575\" duration=\"26566000\" />\r\n      <workItem from=\"1645537819426\" duration=\"14080000\" />\r\n      <workItem from=\"1645562841247\" duration=\"205000\" />\r\n      <workItem from=\"1645603634511\" duration=\"1048000\" />\r\n      <workItem from=\"1645614657865\" duration=\"4742000\" />\r\n      <workItem from=\"1645640035810\" duration=\"4544000\" />\r\n      <workItem from=\"1645737501034\" duration=\"29000\" />\r\n      <workItem from=\"1645778969253\" duration=\"227000\" />\r\n      <workItem from=\"1645794144500\" duration=\"473000\" />\r\n      <workItem from=\"1645800545621\" duration=\"32000\" />\r\n      <workItem from=\"1646564312154\" duration=\"594000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Created a new Expo app\">\r\n      <created>1645551933506</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645551933506</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Created a new Expo app\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Created a new Expo app\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1eb24035d886f3dfc653ea262ece1ef9557320bc)
++++ b/.idea/workspace.xml	(date 1646821713747)
+@@ -2,8 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="564bcc0b-f077-4954-ab9e-a4c4f973b1b6" name="Changes" comment="Created a new Expo app">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/navigation/Tabs.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -42,6 +41,7 @@
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="nodejs_package_manager_path" value="npm" />
++    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RecentsManager">
+@@ -69,6 +69,7 @@
+       <workItem from="1645794144500" duration="473000" />
+       <workItem from="1645800545621" duration="32000" />
+       <workItem from="1646564312154" duration="594000" />
++      <workItem from="1646821409076" duration="303000" />
+     </task>
+     <task id="LOCAL-00001" summary="Created a new Expo app">
+       <created>1645551933506</created>
+@@ -77,7 +78,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1645551933506</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Created a new Expo app">
++      <created>1646821506752</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1646821506752</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: navigation/Tabs.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/navigation/Tabs.js b/navigation/Tabs.js
+new file mode 100644
+--- /dev/null	(date 1645644399584)
++++ b/navigation/Tabs.js	(date 1645644399584)
+@@ -0,0 +1,171 @@
++import React, { useContext, useEffect } from "react";
++import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
++import { createStackNavigator } from "@react-navigation/stack";
++import { Button, SafeAreaView, StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
++import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
++import ScanScreen from "../screens/ScanScreen";
++import HistoryScreen from "../screens/HistoryScreen";
++import InfoScreen from "../screens/InfoScreen";
++import {useFonts} from "expo-font";
++const Tab = createBottomTabNavigator();
++import * as Font from "expo-font";
++const Stack = createStackNavigator();
++
++
++const Tabs = () => {
++
++  return (
++    <Tab.Navigator screenOptions={{
++        headerStyle:{
++            backgroundColor:'black'
++        },
++        tabBarStyle: {
++            height: 80,
++            borderTopWidth:2,
++            borderColor:'grey',
++
++        },
++
++        tabBarItemStyle: {
++            borderLeftWidth:2,
++            borderColor:'grey',
++
++        },
++
++        headerTitle: () => (
++            <View style={{
++                width: "100%",
++                alignItems:'center',
++                justifyContent:'center',
++                alignSelf:'center',
++                top:30,
++                left:140
++
++            }}>
++                <View style={{
++                    width: 100,
++                    height: 100,
++                    borderRadius: 50,
++                    borderColor: "black",
++                    borderWidth: 2,
++                    backgroundColor: "black",
++                    justifyContent:'center'
++                }}>
++                <Text style={{color:"white",alignSelf:'center',fontWeight:"bold",fontSize:25}}>S M S</Text>
++                </View>
++
++            </View>
++        )
++    }}
++
++    >
++
++      <Tab.Screen name={"HistoryScreen"} component={HistoryScreen} options={{
++          title:'',
++
++        tabBarIcon: ({ focused }) => (
++          <View
++            style={{
++              alignItems: "center",
++              justifyContent: "center",
++                height: "100%",
++                width: 150,
++
++
++            }}>
++            <FontAwesome5 name="history" style={{
++              width: 30,
++              height: 30,
++              textAlign: "center",
++              fontSize: 30,
++                color:focused?"black":"gray",
++
++            }} />
++            <Text style={{
++                color:focused?"black":"gray",
++              fontSize: 11,
++              textAlign: "center",
++                top:10
++            }}>Seinastu</Text>
++          </View>
++        ),
++      }} >
++
++      </Tab.Screen>
++
++
++      <Tab.Screen name={"ScanScreen"} component={ScanScreen} options={{
++          title:'',
++        tabBarIcon: ({ focused }) => (
++          <View
++            style={{
++              alignItems: "center",
++              justifyContent: "center",
++                height: "100%",
++                width: 150,
++
++
++            }}>
++            <FontAwesome5 name="circle" style={{
++              width: 30,
++              height: 30,
++              textAlign: "center",
++                color:focused?"black":"gray",
++              fontSize: 30,
++            }} />
++            <Text style={{
++                color:focused?"black":"gray",
++              fontSize: 11,
++              textAlign: "center",
++                top:10
++            }}>Skanna</Text>
++          </View>
++        ),
++      }} />
++
++      <Tab.Screen name={"InfoScreen"} component={InfoScreen} options={{
++          title:'',
++        tabBarIcon: ({ focused }) => (
++          <View
++            style={{
++              alignItems: "center",
++              justifyContent: "center",
++              top: 0,
++                height: "100%",
++                width: 150,
++                borderColor:'grey'
++            }}>
++            <FontAwesome5 name="info" style={{
++              width: 30,
++              height: 30,
++                color:focused?"black":"gray",
++              textAlign: "center",
++
++              fontSize: 30,
++            }} />
++            <Text style={{
++                color:focused?"black":"gray",
++              fontSize: 11,
++              textAlign: "center",
++                top:10
++            }}>Kundatænastan</Text>
++          </View>
++        ),
++      }} />
++    </Tab.Navigator>
++  );
++};
++const styles = StyleSheet.create({
++  shadow: {
++    shadowColor: "grey",
++    shadowOffset: {
++      width: 0,
++      height: 10,
++    },
++    shadowOpacity: 0.1,
++    shadowRadius: 2,
++    elevation: 3,
++  },
++});
++
++export default Tabs;

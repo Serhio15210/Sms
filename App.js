@@ -1,18 +1,23 @@
 
 import Tabs from "./navigation/Tabs";
 import {NavigationContainer,DefaultTheme,DarkTheme} from "@react-navigation/native";
-import {createContext, useState} from "react";
-export const HistoryContext=createContext(null)
+import React, {createContext, useState} from "react";
+import {AppProvider} from "./provider/AppProvider";
+
+
+
 export default function App() {
-    const [cardNumber,setCardNumber]=useState('')
+
   return (
-      <HistoryContext.Provider value={{
-            cardNumber,setCardNumber
-      }}>
+
+
+        <AppProvider>
       <NavigationContainer >
         <Tabs/>
       </NavigationContainer>
-      </HistoryContext.Provider>
+        </AppProvider>
+
+
   );
 }
 

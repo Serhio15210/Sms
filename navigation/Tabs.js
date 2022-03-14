@@ -1,21 +1,19 @@
-import React, { useContext, useEffect } from "react";
+import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { createStackNavigator } from "@react-navigation/stack";
-import { Button, SafeAreaView, StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
+
+import { Text, View } from "react-native";
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 import ScanScreen from "../screens/ScanScreen";
 import HistoryScreen from "../screens/HistoryScreen";
 import InfoScreen from "../screens/InfoScreen";
-import {useFonts} from "expo-font";
 const Tab = createBottomTabNavigator();
-import * as Font from "expo-font";
-const Stack = createStackNavigator();
+
 
 
 const Tabs = () => {
 
     return (
-        <Tab.Navigator screenOptions={{
+        <Tab.Navigator initialRouteName="ScanScreen" screenOptions={{
             headerStyle:{
                 backgroundColor:'black'
             },
@@ -57,7 +55,6 @@ const Tabs = () => {
                 </View>
             )
         }}
-
         >
 
             <Tab.Screen name={"HistoryScreen"} component={HistoryScreen} options={{
@@ -70,8 +67,6 @@ const Tabs = () => {
                             justifyContent: "center",
                             height: "100%",
                             width: 150,
-
-
                         }}>
                         <FontAwesome5 name="history" style={{
                             width: 30,
@@ -103,7 +98,6 @@ const Tabs = () => {
                             justifyContent: "center",
                             height: "100%",
                             width: 150,
-
 
                         }}>
                         <FontAwesome5 name="circle" style={{
@@ -155,17 +149,5 @@ const Tabs = () => {
         </Tab.Navigator>
     );
 };
-const styles = StyleSheet.create({
-    shadow: {
-        shadowColor: "grey",
-        shadowOffset: {
-            width: 0,
-            height: 10,
-        },
-        shadowOpacity: 0.1,
-        shadowRadius: 2,
-        elevation: 3,
-    },
-});
 
 export default Tabs;
